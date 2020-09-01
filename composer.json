@@ -1,0 +1,30 @@
+{
+  "name": "buzz/base",
+  "description": "Base Model Buzz.",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "php": "~7.2.0",
+    "magento/framework": "~100.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Buzz\\Base\\": ""
+    }
+  },
+  "authors": [
+        {
+            "name": "Alysson Victor (Dev04)",
+            "email": "developeralysson@gmail.com",
+            "homepage": "https://github.com/mralysson",
+            "role": "Junior Developer"
+        }
+    ]
+}
