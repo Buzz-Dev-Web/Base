@@ -14,7 +14,7 @@ Módulo desenvolvido para que seja possível a exibição de opções de parcela
 
 2 -> Renomeie a pasta retirando o Buzz- deixando apenas o Base no nome
 
-3 -> Deve ficar dessa maneira: app/code/Buzz/Base
+3 -> A disposição dos arquivos deve ficar dessa maneira: app/code/Buzz/Base
 
 4 -> Rode um bin/magento setup:upgrade e bin/magento setup:di:compile (bin/magento s:s:d apenas se a loja estiver em production mode)
 
