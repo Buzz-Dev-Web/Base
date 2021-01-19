@@ -16,5 +16,3 @@ Instalando esse módulo no Magento, temos dois arquivos de CSS padrões implemen
 4 -> Rode um bin/magento setup:upgrade e bin/magento setup:di:compile (bin/magento s:s:d apenas se a loja estiver em production mode)
 
 ## Composer:
-
-composer require buzzdev/base
