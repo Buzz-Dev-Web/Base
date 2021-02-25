@@ -1,1 +1,5 @@
-/** Frontend custom css**/
+/* remove amazon pay */
+
+.password-info {
+    display: none !important;
+}
