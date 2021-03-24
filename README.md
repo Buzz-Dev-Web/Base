@@ -24,7 +24,7 @@ Instalando esse módulo no Magento, temos dois arquivos de CSS padrões implemen
 ```
 
 
-bin/magento: setup:upgrade
+bin/magento setup:upgrade
 
 
 ```
@@ -34,7 +34,7 @@ bin/magento: setup:upgrade
 ```
 
 
-bin/magento: module:status
+bin/magento module:status
 
 
 ```
