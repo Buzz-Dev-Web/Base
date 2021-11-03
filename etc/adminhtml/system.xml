@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!--
+/**  
+ * @package   Buzz_Base
+ * @author    Team Buzz Web
+ * @copyright Copyright (c)
+ * @version   1.1
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="buzz" translate="label" sortOrder="11">
+            <label>Buzz</label>            
+        </tab>        
+        <section id="buzz_base" translate="label" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Base</label>
+            <tab>buzz</tab>            
+            <resource>Buzz_Base::config_base</resource>
+            <group id="general" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>General Setting</label>                                             
+                <comment>This module aims to centralize all BUZZ modules.</comment>
+                <field id="base_enable"  translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Extension Enable</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+            </group>
+            <group id="base_instaled" translate="label" type="text" sortOrder="2" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Modules installed</label>                                       
+                    <field id="instaled_extension" translate="label" type="text" sortOrder="98" showInDefault="1" showInWebsite="1" showInStore="1">
+                        <label>Listing</label>
+                        <comment>developing</comment>
+                    </field>
+            </group>
+            <group id="base_netx" translate="label" type="text" sortOrder="999" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Next deployments</label>
+                    <comment>
+                        <![CDATA[Below a list of things that I expect to implement in the next version of Base module:]]>
+                    </comment>
+                    <field id="my_contact" translate="label" type="text" sortOrder="99" showInDefault="1" showInWebsite="1" showInStore="1">
+                        <label>My email</label>
+                        <comment>You can subscribe to receive the news!</comment>
+                    </field>
+            </group>  
+        </section>
+    </system>
+</config>

@@ -1,3 +1,21 @@
+"Base","Base"
+"General Setting","Configurações Gerais"
+"Extension Enable","Habilitar módulo"
+"This module aims to centralize all BUZZ modules.","Este módulo tem como objetivo centralizar todos os módulos da BUZZ."
+"Listing","Listagem"
+"Modules Listing","Listagem de Módulos"
+"developing","Em desenvolvimento"
+"Next deployments","Próximas implantações"
+"My email","Meu e-mail"
+"You can subscribe to receive the news!","Você pode se inscrever para receber as novidades !"
+"Below a list of things that I expect to implement in the next version of Base module:","Esperado para as próximas versões do módulo:<br><br>
+                    - listar módulos instalados da Buzz<br>
+                    - exibir a versão de cada módulo instalado da Buzz<br>
+                    - exibir a pasta onde o Magento está instalado<br>
+                    - criar menu customizado com logo (BUZZ)<br>
+                    - exibir o modo que a loja se encontra (desenvolvimento/produção)<br><br>
+                    Você pode acompanhar as atualizações do módulo <a href='https://github.com/Buzz-Dev-Web/Base' target='_blank'>aqui</a>.<br>"
+"Modules installed","Módulos instalados"
 "Salable Quantity","Quantidade vendável"
 Search by keyword,Pesquisar por palavra chave
 "Simple Product","Produto Simples"

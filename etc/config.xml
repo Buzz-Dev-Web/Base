@@ -1,0 +1,24 @@
+<!--
+/**  
+ * @package   Buzz_Base
+ * @author    Team Buzz Web
+ * @copyright Copyright (c)
+ * @version   1.1
+ */
+-->
+<?xml version="1.0"?>
+ <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <buzz_base>
+            <general>
+                <base_enable>1</base_enable>                
+            </general>                            
+            <base_netx>
+                <my_contact>meuemailaqui@gmail.com</my_contact>
+            </base_netx>
+            <base_instaled>
+                <instaled_extension>---</instaled_extension>
+            </base_instaled>
+        </buzz_base>
+    </default>
+</config>
