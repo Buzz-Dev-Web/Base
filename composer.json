@@ -1,29 +1,28 @@
 {
-  "name": "buzzdev/base",
-  "description": "Base Module to implement css for frontend/adminhtml and translate",
-  "type": "magento2-module",
-  "version": "1.0.0",
-  "license": [
-    "OSL-3.0",
-    "AFL-3.0"
-  ],
-  "require": {
-    "php": "~7.2.0"
-  },
-  "autoload": {
-    "files": [
-      "registration.php"
+    "name": "buzzdev/base",
+    "description": "Base Module to implement css for frontend/adminhtml and translate",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
     ],
-    "psr-4": {
-      "Buzz\\Base\\": ""
-    }
-  },
-  "authors": [
+    "require": {
+        "php": "~7.2.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Buzz\\Base\\": ""
+        }
+    },
+    "authors": [
         {
-            "name": "Alysson Victor (Dev04)",
-            "email": "developeralysson@gmail.com",
-            "homepage": "https://github.com/reallyAly",
-            "role": "Junior Developer"
+            "name": "Team BUZZ",
+            "email": "mauricio@plataformamagento.com.br",
+            "homepage": "https://github.com/Buzz-Dev-Web"
         }
     ]
 }

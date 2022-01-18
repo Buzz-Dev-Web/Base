@@ -7,12 +7,11 @@
  * @version   1.1
  */
 -->
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
     <system>
-        <tab id="buzz" translate="label" sortOrder="11">
+        <tab id="buzz" translate="label" sortOrder="999999" class="buzz-tab buzzbase-tab-container">
             <label>Buzz</label>            
-        </tab>        
+        </tab>         
         <section id="buzz_base" translate="label" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
             <label>Base</label>
             <tab>buzz</tab>            
