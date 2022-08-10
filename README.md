@@ -1,25 +1,45 @@
-# Buzz-Base
+# Base - BUZZ
 
 O propósito desse módulo é funcionar como um core para os módulos da BUZZ que forem sendo desenvolvidos, classes comuns a um ou mais módulos devem ser implementados aqui para que possamos ter tudo centralizado.
 
-Instalando esse módulo no Magento, temos dois arquivos de CSS padrões implementados tanto para o admin quanto para o frontend que são carregados em todas as páginas, a tradução padrão para o Magento também está presente.
+Instalando esse módulo no Magento, temos dois arquivos de CSS padrões implementados tanto para o admin quanto para o frontend que são carregados em todas as páginas, a tradução padrão para algumas áreas do Magento também está presente (traduções ausentes no RafaelSTZ).
 
-**ATENÇÃO** 
+## Requisitos
 
-*Antes de executar as tarefas abaixo, certifique-se que a loja está em modo desenvolvimento*
+* Pasta BUZZ dentro da app/code (obrigatório),
+* Módulo *Base* instalado (obrigatório),
+
+## Compatibilidade
+
+- [x] Testado em Magento 2.2.x
+- [x] Testado em Magento 2.3.x
+- [x] Testado em Magento 2.4.3
+
+**ATENÇÃO:** Para Magento acima de _2.4.3_ é necessário baixar o pacote Zend, pois ele foi descontinuado a partir desta versão, para download do pacote, veja o comando abaixo:
+
+    composer require laminas/laminas-serializer --no-update
+    composer update
+    bin/magento setup:upgrade
+    rm -rf var/generation var/view_preprocessed/ pub/static/frontend
+    bin/magento setup:di:compile
+    bin/magento setup:static-content:deploy -f
+    bin/magento cache:flush
+
 
 ## Passo a passo de instalação:
 
 
-### Manual: 
+### Manual:
 
-1 -> Clone este repositório para dentro da sua pasta app/code/Buzz/;
+1 -> Certifique-se que a loja encontre-se em modo desenvolvimento,
 
-2 -> Renomeie a pasta retirando o **Buzz-** deixando apenas **Base** no nome;
+2 -> Clone este repositório para dentro da sua pasta app/code/Buzz/;
 
-3 -> A disposição dos arquivos deve ficar dessa maneira: app/code/Buzz/Base;
+3 -> Renomeie a pasta retirando o **Buzz-** deixando apenas **Base** no nome;
 
-4 -> Acesse o terminal *(via SSH)* e digite o seguinte comando:
+4 -> A disposição dos arquivos deve ficar dessa maneira: app/code/Buzz/Base;
+
+5 -> Acesse o terminal *(via SSH)* e digite o seguinte comando:
 
 ```
 
@@ -29,7 +49,7 @@ bin/magento setup:upgrade
 
 ```
 
-5 -> A seguir verifique se o mesmo foi instalado, digitando no terminal:
+6 -> A seguir verifique se o mesmo foi instalado, digitando no terminal:
 
 ```
 
@@ -39,9 +59,9 @@ bin/magento module:status
 
 ```
 
-6 -> O resultado esperado deve ser habilitado !
+7 -> O resultado esperado deve ser habilitado !
 
-7 -> Feito isso proceda com os seguintes comandos na ordem apresentada neste tutorial:
+8 -> Feito isso proceda com os seguintes comandos na ordem apresentada neste tutorial:
 
 ```
 
@@ -61,7 +81,7 @@ bin/magento setup:static-content:deploy
 
 ```
 
-8 -> Pronto, módulo **BUZZ BASE** instalado com sucesso !
+9 -> Pronto, módulo **BUZZ BASE** instalado com sucesso !
 
 ### Instalação via Composer:
 

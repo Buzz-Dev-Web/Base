@@ -17,20 +17,15 @@
             <tab>buzz</tab>
             <resource>Buzz_Base::config_base</resource>
             <group id="general" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
-                <label>General Setting</label>
-                <comment>This module aims to centralize all BUZZ modules.</comment>
-                <field id="base_enable"  translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Extension Enable</label>
-                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
-                </field>
+                <label>System Information</label>
+                <!-- Exibi as informações gerais da loja -->
+                <frontend_model>Buzz\Base\Block\Adminhtml\SystemInfo</frontend_model>
             </group>
-            <group id="base_instaled" translate="label" type="text" sortOrder="2" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Modules installed</label>
-                    <field id="instaled_extension" translate="label" type="text" sortOrder="98" showInDefault="1" showInWebsite="1" showInStore="1">
-                        <label>Listing</label>
-                        <comment>developing</comment>
-                    </field>
-            </group>
+            <!-- <group id="base_instaled" translate="label" type="text" sortOrder="2" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Installed Modules</label>
+                    Exibe os módulos instalados                    
+                <frontend_model>Buzz\Base\Block\Adminhtml\Modules</frontend_model>
+            </group> -->
             <group id="base_netx" translate="label" type="text" sortOrder="999" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>Next deployments</label>
                 <frontend_model>Buzz\Base\Block\Adminhtml\System\Config\Documentation</frontend_model>

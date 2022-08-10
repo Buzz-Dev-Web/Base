@@ -1,0 +1,10 @@
+/** Admin custom css **/
+.config-nav-block.buzz-tab strong:before {
+    background: url(../images/code-solid.svg) no-repeat;
+    width: 20px;
+    height: 17px;
+    content: '';
+    display: inline-block;
+    margin-right: 12px;
+    vertical-align: bottom;
+}
