@@ -195,7 +195,7 @@ class SystemInfo extends Fieldset
             if (!$this->moduleInfoProvider->isOriginMarketplace()) {
                 $value .=
                     '<a target="_blank"
-                  href="https://github.com/Buzz-Dev-Web/Tutoriais/tree/main/Magento_2/82%20-%20O%20que%20%C3%A9%20Cron">' .
+                  href="https://github.com/Buzz-Dev-Web/Tutoriais/tree/main/Magento_2/082%20-%20O%20que%20%C3%A9%20Cron">' .
                     __('What is CRON?') .
                     '</a>';
             }
