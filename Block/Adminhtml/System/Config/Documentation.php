@@ -16,7 +16,7 @@ class Documentation extends \Magento\Config\Block\System\Config\Form\Fieldset
 
         return '<p style="font-size: 18px; font-weight: 600; margin-top: 15px;">Sobre o módulo</p>
     <br>
-    <p>Versão: 1.5</p>
+    <p>Versão: 1.6</p>
     <br>
     <p>Este módulo tem como objetivo centralizar todos os módulos da BUZZ.</p>
     <br>
@@ -24,8 +24,7 @@ class Documentation extends \Magento\Config\Block\System\Config\Form\Fieldset
         <p style="font-size: 16px;">Esperado para as próximas versões do módulo:</p>
         <br>
         <p> - Listar módulos instalados da BUZZ;</p>
-        <p> - Campo para inserção de CSS customizado (Magento Backend);</p>    
-        <p> - BUG para versão 2.4.3+ Precisa do <strong>laminas/laminas-serializer</strong>;</p>
+        <p> - Campo para inserção de CSS customizado (Magento Backend);</p>            
         <br>
     </div>
     <br>
