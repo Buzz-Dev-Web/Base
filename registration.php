@@ -1,5 +1,13 @@
 <?php
 
-use Magento\Framework\Component\ComponentRegistrar;
+/**
+* @package   Buzz_Base
+* @author    github.com/mauricio-tonny
+* @copyright Copyright (c)
+*/
 
-ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Buzz_Base', __DIR__);
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::MODULE,
+    'Buzz_Base',
+    __DIR__
+);
