@@ -1,12 +1,10 @@
 /* remove amazon pay */
-
 .password-info {
     display: none !important;
 }
 
 
 /* icone do fechar na opcao do zoom (tema porto) */
-
 .fotorama--fullscreen .fotorama__fullscreen-icon:before {
     content: "\f847"!important;
 }

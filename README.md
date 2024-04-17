@@ -13,8 +13,7 @@ Instalando esse módulo no Magento, temos dois arquivos de CSS padrões implemen
 
 - [x] Testado em Magento 2.2.x
 - [x] Testado em Magento 2.3.x
-- [x] Testado em Magento 2.4.3
-- [x] Testado em Magento 2.4.4
+- [x] Testado em Magento 2.4.x
 
 **ATENÇÃO:** Para Magento acima de _2.4.3_ é necessário baixar o pacote Zend, pois ele foi descontinuado a partir desta versão, para download do pacote, veja o comando abaixo:
 

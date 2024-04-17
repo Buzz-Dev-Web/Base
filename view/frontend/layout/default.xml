@@ -1,5 +1,11 @@
 <?xml version="1.0"?>
-
+<!--
+    /**
+    * @package   Buzz_Base
+    * @author    github.com/mauricio-tonny
+    * @copyright Copyright (c)
+    */
+-->
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <head>
         <css src="Buzz_Base::css/zz_custom.css" type="stylesheet"/>

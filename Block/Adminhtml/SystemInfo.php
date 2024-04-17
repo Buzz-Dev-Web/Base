@@ -1,11 +1,10 @@
 <?php
 
 /**
- * @package   Buzz_Base
- * @company   Buzz
- * @author    github.com/mauricio-tonny
- * @copyright Copyright (c)
- */
+* @package   Buzz_Base
+* @author    github.com/mauricio-tonny
+* @copyright Copyright (c)
+*/
 
 namespace Buzz\Base\Block\Adminhtml;
 

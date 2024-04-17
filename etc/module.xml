@@ -1,11 +1,10 @@
 <?xml version="1.0"?>
 <!--
-/**
- * @package   Buzz_Base
- * @author    Team Buzz Web
- * @copyright Copyright (c)
- * @version   1.1
- */
+    /**
+    * @package   Buzz_Base
+    * @author    github.com/mauricio-tonny
+    * @copyright Copyright (c)
+    */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
     <module name="Buzz_Base" setup_version="1.0.0"/>
